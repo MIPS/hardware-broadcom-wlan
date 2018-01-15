@@ -9,6 +9,8 @@
 #include <linux/filter.h>
 #include <linux/errqueue.h>
 #include <errno.h>
+#include <sys/types.h>
+#include <unistd.h>
 
 #include <linux/pkt_sched.h>
 #include <netlink/object-api.h>
